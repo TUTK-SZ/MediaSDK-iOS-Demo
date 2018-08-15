@@ -1,0 +1,19 @@
+//
+//  TUTKP2P-Prefix.pch
+//  TUTKP2P
+//
+//  Created by steven_yang on 2018/1/17.
+//  Copyright © 2018年 tutksz_ios. All rights reserved.
+//
+
+#import "CommonDefines.h"
+#ifndef TUTKP2P_Prefix_pch
+#define TUTKP2P_Prefix_pch
+
+#ifdef DEBUG
+# define DLog(fmt, ...) NSLog(fmt, ##__VA_ARGS__);
+#else
+# define DLog(...);
+#endif
+
+#endif /* TUTKP2P_Prefix_pch */

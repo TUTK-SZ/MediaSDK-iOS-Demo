@@ -1,0 +1,6 @@
+framework module TUTKMedia {
+  umbrella header "TUTKMedia.h"
+
+  export *
+  module * { export * }
+}

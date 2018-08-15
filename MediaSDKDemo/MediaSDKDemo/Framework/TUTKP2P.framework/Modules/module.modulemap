@@ -1,0 +1,6 @@
+framework module TUTKP2P {
+  umbrella header "TUTKP2P.h"
+
+  export *
+  module * { export * }
+}
