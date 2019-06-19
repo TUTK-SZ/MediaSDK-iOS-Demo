@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -411,7 +411,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MediaSDKDemo/Framework",
 				);
-				INFOPLIST_FILE = MediaSDKDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MediaSDKDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +434,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MediaSDKDemo/Framework",
 				);
-				INFOPLIST_FILE = MediaSDKDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MediaSDKDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
